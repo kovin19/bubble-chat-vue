@@ -4,7 +4,7 @@
 
 <template>
   <div class="min-h-screen relative bg-cover bg-center" :style="{ backgroundImage: `url(${backgroundImg})` }">
-    <div class="absolute inset-0 bg-black opacity-40"></div>
+    <div class="absolute inset-0 backdrop-blur-md bg-black/50"></div>
     <main class="relative z-10">
       <RouterView/>
     </main>

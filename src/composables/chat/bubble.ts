@@ -1,4 +1,4 @@
-import { startRecording, stopRecording } from "./message";
+import { startRecording, stopRecording } from "./record";
 
 let recording = false;
 
